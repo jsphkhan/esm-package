@@ -1,0 +1,25 @@
+{
+  "name": "@joseph/esm-package",
+  "version": "1.0.0",
+  "description": "ESM package to try tree shaking",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "prebuild": "npm run clean",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsphkhan/esm-package"
+  },
+  "homepage": "https://github.com/jsphkhan/esm-package#readme",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "rimraf": "^4.1.3"
+  }
+}
