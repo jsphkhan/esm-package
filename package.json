@@ -4,6 +4,7 @@
   "sideEffects": false,
   "description": "ESM package to try tree shaking",
   "main": "dist/index.js",
+  "type": "module",
   "files": [
     "dist"
   ],
