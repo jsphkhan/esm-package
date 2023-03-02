@@ -1,5 +1,5 @@
 {
-  "name": "@joseph/esm-package",
+  "name": "@jsphkhan/esm-package",
   "version": "1.0.1",
   "description": "ESM package to try tree shaking",
   "main": "dist/index.js",
