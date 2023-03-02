@@ -1,4 +1,4 @@
-import { ApiErrorType } from '../../../types/error.types';
+import { ApiErrorType } from '../../../types/error.types.js';
 
 /**
  * Returns a simulated Error response format for API's
