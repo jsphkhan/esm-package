@@ -1,4 +1,4 @@
-import { Dictionary } from '../types/common.types.js';
+import { Dictionary } from '../types/common.types';
 
 export interface ApiErrorType<T> {
   data: Dictionary<T>;

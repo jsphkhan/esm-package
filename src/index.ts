@@ -1,8 +1,8 @@
-import isClient from "./utils/ssr/isClient/index.js";
-import isServer from "./utils/ssr/isServer/index.js";
-import findQitafPoints from "./utils/qitaf/findQitafPoints/index.js";
-import getFormData from "./utils/document/getFormData/index.js";
-import getAddOnNotFound from "./utils/error/getAddOnNotFound/index.js";
+import isClient from "./utils/ssr/isClient";
+import isServer from "./utils/ssr/isServer";
+import findQitafPoints from "./utils/qitaf/findQitafPoints";
+import getFormData from "./utils/document/getFormData";
+import getAddOnNotFound from "./utils/error/getAddOnNotFound";
 
 export {
     isClient,
