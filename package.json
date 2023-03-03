@@ -1,6 +1,6 @@
 {
   "name": "@jsphkhan/esm-package",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "sideEffects": false,
   "description": "ESM package to try tree shaking",
   "main": "dist/index.js",
