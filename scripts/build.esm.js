@@ -28,5 +28,5 @@ klaw(esmDistPath).on('data', (item) => {
 }).on('error', () => {
 
 }).on('end', () => {
-    console.log('** end copying package.json **');
+    console.log('** end copying esm package.json **');
 });

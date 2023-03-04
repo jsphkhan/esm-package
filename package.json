@@ -13,9 +13,10 @@
     "prebuild": "npm run clean",
     "build:tsc": "tsc",
     "copy:packagejson:esm": "node ./scripts/build.esm.js",
+    "copy:packagejson:commonjs": "node ./scripts/build.commonjs.js",
     "build:babel:commonjs": "BABEL_ENV=commonjs babel src --out-dir dist --extensions .ts,.js --copy-files",
     "build:babel:esm": "BABEL_ENV=esm babel src --out-dir dist/esm --extensions .ts,.js --copy-files",
-    "build:babel": "npm run prebuild && npm run build:babel:commonjs && npm run build:babel:esm && npm run copy:packagejson:esm"
+    "build:babel": "npm run prebuild && npm run build:babel:commonjs && npm run build:babel:esm && npm run copy:packagejson:esm && npm run copy:packagejson:commonjs"
   },
   "repository": {
     "type": "git",
