@@ -1,0 +1,27 @@
+Overview:
+----------
+Package is published to NPM Package registry
+Package name: @jsphkhan/esm-package
+This is a scoped public package
+
+I am using Babel to compile Typescript to JS
+It follows the date-fns style of creating commonJS and ESM version of the modules
+
+Build and Publish package:
+--------------------------
+npm run build:babel <- this will create the dist folder
+npm version <major/minor/patch>
+npm publish
+
+Errors:
+--------
+Errors shown when importing and using this package:
+https://www.google.com/search?q=directory+import+is+not+supported+resolving+es+modules+imported+from&sxsrf=AJOqlzVb0Vh24s7-j-e15RraFquUxhrNXQ%3A1677779785676&ei=SeMAZK76KPuIi-gP3v6zmAc&oq=is+not+supported+resolving+ES+modules+imported+from&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgEMgUIABCABDIFCAAQgAQyCAgAEBYQHhAKMgYIABAWEB4yBQgAEIYDMgUIABCGAzoHCCMQ6gIQJzoNCC4QjwEQ6gIQtAIYAToNCAAQjwEQ6gIQtAIYAUoECEEYAFDsCFjsCGD_J2gBcAF4AIAB3AGIAdwBkgEDMi0xmAEAoAEBoAECsAEUwAEB2gEGCAEQARgK&sclient=gws-wiz-serp
+
+References:
+------------
+date-fns build script that generates package.json inside 
+each ESM modules/functions inside the NPM package: https://github.com/date-fns/date-fns/blob/main/scripts/build/packages.js
+
+date-fns build bach file that generates both commonJS and ESM modules:
+https://github.com/date-fns/date-fns/blob/main/scripts/build/package.sh
